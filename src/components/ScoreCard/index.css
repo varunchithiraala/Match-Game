@@ -1,0 +1,107 @@
+.score-card-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png");
+  background-size: cover;
+  height: 85vh;
+  width: 90vw;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .score-card-container {
+      background-image: url("https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png");
+      background-size: cover;
+      border-radius: 10px;
+      height: 90vh;
+      width: 70vh;
+  }
+}
+
+.score-card-text-container {
+  min-height: 45vh;
+  padding: 25px;
+  border-radius: 10px;
+  margin-top: 25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card-text-container {
+      min-height: 55vh;
+      padding: 20px
+  }
+}
+
+.score-card-image {
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card-image {
+      height: 250px;
+  }
+}
+
+.score-card-text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card-text {
+      font-size: 26px;
+  }
+}
+
+.score-card-value{
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .score-card-value{
+    font-size: 45px;
+  }
+}
+
+.score-card-button {
+  background-color: #cf60c8;
+  color: #ffffff;
+  height: 40px;
+  width: 160px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.score-card-reset-icon {
+  font-size: 16px;
+}
+
+.score-card-play-again {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+}

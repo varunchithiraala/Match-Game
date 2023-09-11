@@ -1,0 +1,111 @@
+.navbar-container {
+  background-color: #2c0e3a;
+  height: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    height: 8%;
+  }
+}
+
+.navbar-logo {
+  height: 25px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-logo {
+    height: 40px;
+    width: 180px;
+    margin-left: 40px;
+  }
+}
+
+.navbar-score-timer-container {
+  list-style-type: none;
+  width: 50vw;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .navbar-score-timer-container {
+    width: 30vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-score-timer-container {
+      width: 25vw;
+      margin-right: 40px;
+  }
+}
+
+.navbar-score-item {
+  width: 250px;
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-score-item {
+    width: 100px;
+    margin-right: 10px;
+  }
+}
+
+.navbar-score-text {
+  color: #ffffff;
+  font-family: "Roboto";
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-score-text {
+    font-size: 18px;
+  }
+}
+
+.navbar-value {
+  color: #fec653;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-value {
+    font-size: 20px;
+  }
+}
+
+.navbar-timer-item {
+  width: 320px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-timer-item {
+    width: 100px;
+  }
+}
+
+.navbar-timer-icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-timer-icon {
+    height: 24px;
+    width: 24px;
+  }
+}
